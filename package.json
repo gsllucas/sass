@@ -1,0 +1,13 @@
+{
+  "name": "sass-origamid",
+  "version": "1.0.0",
+  "description": "A Sass tour, studying through origamid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/public/styles/scss/:src/public/styles/css/"
+  },
+  "keywords": [],
+  "author": "gsllucas",
+  "license": "ISC"
+}
