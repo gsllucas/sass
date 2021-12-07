@@ -6,3 +6,5 @@ script for watch .scss file changes: sass --watch src/public/styles/scss/:src/pu
 
 npm run sass,
 make sure that you have sass installed globally
+
+<a href="https://sass-lang.com/documentation" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="300" height="300" title="SASS" /></a>
