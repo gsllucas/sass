@@ -1,0 +1,23 @@
+@import "variables";
+@import "buttons";
+@import "card";
+@import "mixins";
+
+.main-container {
+  height: 100vh;
+}
+
+.flex-center {
+  @include mx-flex-center;
+  margin-bottom: 24px;
+}
+
+.flex-space-between {
+  @include mx-flex-space-between;
+  margin-bottom: 24px;
+}
+
+.flex-space-around {
+  @include mx-flex-space-around;
+  margin-bottom: 24px;
+}

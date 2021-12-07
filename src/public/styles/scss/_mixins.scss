@@ -1,0 +1,36 @@
+@mixin flex {
+  display: flex;
+  border: 1px solid #212121;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+@mixin gutter {
+  margin-bottom: 24px;
+}
+
+@mixin mx-flex-center {
+  @include flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+@mixin mx-flex-space-between {
+  @include flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+@mixin mx-flex-space-around {
+  @include flex;
+  @include gutter;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 640px;
+  margin: 0 auto;
+}
