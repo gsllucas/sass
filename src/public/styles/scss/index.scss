@@ -2,6 +2,7 @@
 @import 'buttons';
 @import 'card';
 @import 'mixins';
+@import 'mixins-with-params';
 
 .main-container {
   height: 100vh;
@@ -20,4 +21,16 @@
 .flex-space-around {
   @include mx-flex-space-around;
   margin-bottom: 24px;
+}
+
+.flex-mixin-params {
+  @include display-flex(center, center, column);
+}
+
+.title-mixin-params {
+  @include title(18px, $primary-color, 400);
+}
+
+.button-mixin-params {
+  @include confirm-button(180px, 40px);
 }

@@ -64,4 +64,23 @@
   margin-bottom: 24px;
 }
 
+.flex-mixin-params {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-mixin-params {
+  font-size: 18px;
+  color: #38b88b;
+  font-weight: 400;
+}
+
+.button-mixin-params {
+  width: 180px;
+  height: 40px;
+  color: #38b88b;
+}
+
 /*# sourceMappingURL=index.css.map */
