@@ -1,0 +1,20 @@
+$color: #38b88b;
+
+@mixin display-flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin title($size, $color, $weight) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+}
+
+@mixin confirm-button($width, $height) {
+  width: $width;
+  height: $height;
+  color: $color;
+}
