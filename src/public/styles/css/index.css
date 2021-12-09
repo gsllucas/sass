@@ -83,4 +83,14 @@
   color: #38b88b;
 }
 
+.default-params-value {
+  color: #38b88b;
+  background-color: #fff;
+}
+
+.default-params-value2 {
+  width: 30px;
+  height: 30px;
+}
+
 /*# sourceMappingURL=index.css.map */

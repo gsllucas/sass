@@ -34,3 +34,11 @@
 .button-mixin-params {
   @include confirm-button(180px, 40px);
 }
+
+.default-params-value {
+  @include default-params-value;
+}
+
+.default-params-value2 {
+  @include default-params-value2;
+}

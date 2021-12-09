@@ -1,4 +1,4 @@
-$color: #38b88b;
+$primary-color: #38b88b;
 
 @mixin display-flex($justify, $align, $direction) {
   display: flex;
@@ -16,5 +16,15 @@ $color: #38b88b;
 @mixin confirm-button($width, $height) {
   width: $width;
   height: $height;
+  color: $primary-color;
+}
+
+@mixin default-params-value($color: $primary-color, $background: #fff) {
   color: $color;
+  background-color: $background;
+}
+
+@mixin default-params-value2($width: 30px, $height: 30px) {
+  width: $width;
+  height: $height;
 }
