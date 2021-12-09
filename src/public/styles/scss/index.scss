@@ -7,6 +7,7 @@
 @import 'extend';
 @import 'operators';
 @import 'conditionals';
+@import 'functions';
 
 .main-container {
   height: 100vh;
@@ -87,5 +88,37 @@
     margin: 0;
     background-color: $primary-color;
     color: $white;
+  }
+}
+
+.some-class-with-sass-function {
+  font-size: em(18);
+}
+
+.round-grid-px {
+  width: setPxRounded(12, 960px);
+}
+
+.transparentize {
+  background-color: $primary-color;
+
+  &:hover {
+    background-color: transparentize($primary-color, $amount: 0.8);
+  }
+}
+
+.lighten {
+  background-color: $primary-color;
+
+  &:hover {
+    background-color: lighten($primary-color, 20%);
+  }
+}
+
+.lighten {
+  background-color: $primary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 20%);
   }
 }

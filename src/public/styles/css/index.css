@@ -113,18 +113,18 @@
 
 .title-mixin-params {
   font-size: 18px;
-  color: blue;
+  color: #38b88b;
   font-weight: 400;
 }
 
 .button-mixin-params {
   width: 180px;
   height: 40px;
-  color: blue;
+  color: #38b88b;
 }
 
 .default-params-value {
-  color: blue;
+  color: #38b88b;
   background-color: #fff;
 }
 
@@ -175,9 +175,38 @@
   .content {
     padding: 0;
     margin: 0;
-    background-color: blue;
+    background-color: #38b88b;
     color: #ffffff;
   }
+}
+
+.some-class-with-sass-function {
+  font-size: 1.125em;
+}
+
+.round-grid-px {
+  width: 80px;
+}
+
+.transparentize {
+  background-color: #38b88b;
+}
+.transparentize:hover {
+  background-color: rgba(56, 184, 139, 0.2);
+}
+
+.lighten {
+  background-color: #38b88b;
+}
+.lighten:hover {
+  background-color: #7ed8b8;
+}
+
+.lighten {
+  background-color: #38b88b;
+}
+.lighten:hover {
+  background-color: #206a50;
 }
 
 /*# sourceMappingURL=index.css.map */

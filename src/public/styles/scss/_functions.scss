@@ -1,0 +1,7 @@
+@function em($pixels, $context: 16) {
+  @return calc(($pixels / $context) * 1em);
+}
+
+@function setPxRounded($columns, $max-size) {
+  @return floor(calc($max-size / $columns));
+}
