@@ -1,0 +1,8 @@
+.operators {
+  $gutter: 60px;
+  $width: 200px;
+
+  width: $width - 40;
+  height: calc(100vh - $gutter);
+  max-width: 100px + 100px + 350px;
+}

@@ -33,6 +33,12 @@
   justify-content: center;
 }
 
+.operators {
+  width: 160px;
+  height: calc(100vh - 60px);
+  max-width: 550px;
+}
+
 .main-container {
   height: 100vh;
 }
