@@ -1,5 +1,5 @@
 $theme: ocean;
-$primary-color: blue;
+$primary-blue-color: blue;
 $secondary-color: lightblue;
 
 @mixin break-points($screen) {
@@ -33,15 +33,15 @@ $secondary-color: lightblue;
 }
 
 @if $theme == ocean {
-  $primary-color: blue;
+  $primary-blue-color: blue;
   $secondary-color: lightblue;
 } @else if $theme == desert {
-  $primary-color: yellow;
+  $primary-blue-color: yellow;
   $secondary-color: lightyellow;
 }
 
 .theme {
-  background-color: $primary-color;
+  background-color: $primary-blue-color;
   color: $secondary-color;
 }
 
