@@ -93,4 +93,18 @@
   height: 30px;
 }
 
+.display-flex-default {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.display-flex-default2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=index.css.map */

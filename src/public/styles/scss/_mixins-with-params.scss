@@ -7,6 +7,13 @@ $primary-color: #38b88b;
   flex-direction: $direction;
 }
 
+@mixin display-flex-default($justify: center, $align: center, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
 @mixin title($size, $color, $weight) {
   font-size: $size;
   color: $color;
