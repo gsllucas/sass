@@ -1,0 +1,13 @@
+.some-default {
+  box-sizing: border-box;
+  padding: 24px;
+  margin: 24px;
+  text-decoration: dotted;
+}
+
+.extends {
+  @extend .some-default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
