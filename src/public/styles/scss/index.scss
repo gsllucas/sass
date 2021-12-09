@@ -42,3 +42,11 @@
 .default-params-value2 {
   @include default-params-value2;
 }
+
+.display-flex-default {
+  @include display-flex-default(space-between, flex-end, column);
+}
+
+.display-flex-default2 {
+  @include display-flex-default;
+}
