@@ -4,7 +4,7 @@
 
 Every day/week i'll try to update new acquired knowledge.
 
-script for watch .scss file changes: sass --watch src/public/fundamentals/styles/scss/:src/public/fundamentals/styles/css/
+script (named sass on package.json) for watch .scss file changes: sass --watch src/public/fundamentals/styles/scss/:src/public/fundamentals/styles/css/
 
 npm run sass,
 make sure that you have sass installed globally
